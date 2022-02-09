@@ -1,10 +1,9 @@
 import os
-import time
 while True:
-    site = input('Название сайта: ')
+    site = input("Введите название сайта: ")
     if site == 'завершить':
+        print("Программа завершена.")
         break
-    time.sleep(5)
     if 'https://' in site:
         os.system('start ' + site)
         print('if')
@@ -16,3 +15,5 @@ while True:
         site = 'https://www.' + site
         os.system(f'start {site}')
         print('else')
+
+

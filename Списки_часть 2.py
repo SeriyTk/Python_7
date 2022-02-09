@@ -22,6 +22,8 @@ print(m[6])
 
 print()
 n = list(range(1, 21))
+b = n[::2]
+print(b)
 l = []
 for i in n:
     if i % 2== 0:

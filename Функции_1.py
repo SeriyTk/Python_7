@@ -5,8 +5,8 @@ def show():
 
 
 def show2():
-    x = 7
-    return x
+    return 7
 
 
 show()
+show2()
